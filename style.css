@@ -1,0 +1,217 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+  }
+  
+  body{
+    background:#f3f4f6;
+  }
+  
+  /* NAVBAR */
+  .navbar{
+    display:flex;
+    justify-content:space-around;
+    padding:15px 40px;
+    background:#fff;
+  }
+
+  
+  .logo{
+    color:#6c3cff;
+  }
+  
+  nav a{
+    margin:0 10px;
+    color:#333;
+  }
+  
+  .btn{
+    background:#6c3cff;
+    color:#fff;
+    border:none;
+    padding:8px 15px;
+    border-radius:20px;
+  }
+  
+  /* HERO */
+  .hero{
+    padding:20px 100px;
+    justify-content: center;
+  }
+  
+  .hero-box{
+    background:linear-gradient(135deg,#1c7c6d,#e18a4c);
+    padding:100px;
+    border-radius:20px;
+    color:#000000;
+  }
+  
+  .badge{
+    background:#0f5c50;
+    padding:5px 10px;
+    border-radius:20px;
+    display:inline-block;
+    margin-bottom:10px;
+  }
+  
+  .hero h1{
+    font-size:32px;
+    margin-bottom:10px;
+  }
+  
+  .sub{
+    margin-bottom:20px;
+  }
+  
+  .hero-btns button{
+    margin-right:10px;
+    padding:10px 20px;
+    border-radius:20px;
+  }
+  
+  .white-btn{
+    background:#fff;
+    border:none;
+  }
+  
+  .outline-btn{
+    background:transparent;
+    border:1px solid #886dff;
+    color:#886dff;
+  }
+  
+  /* MAIN */
+  .container{
+    display:flex;
+    gap:20px;
+    padding:20px;
+  }
+  
+  .left{
+    flex:2;
+  }
+  
+  .right{
+    flex:1;
+  }
+  
+  /* CARD */
+  .card{
+    background:#fff;
+    padding:20px;
+    border-radius:15px;
+    margin-bottom:20px;
+  }
+  
+  FORM
+  .row{
+    display:flex;
+    gap:10px;
+    margin-bottom:10px;
+  }
+  
+  input,select,textarea{
+    width:100%;
+    padding:10px;
+    border:1px solid #ddd;
+    border-radius:8px;
+  }
+  
+  textarea{
+    height:150px;
+    margin-top:10px;
+  }
+  
+  .actions{
+    margin:10px 0;
+  }
+  
+  .generate{
+    background:#6532fd;
+    color:#fff;
+    padding:8px 15px;
+    border:none;
+    border-radius:10px;
+  }
+  
+  .ghost{
+    background:#eee;
+    border:none;
+    padding:8px 10px;
+    border-radius:10px;
+  }
+  
+  /* TEMPLATE */
+  .template{
+    border:1px solid #eee;
+    padding:10px;
+    margin-top:10px;
+    border-radius:10px;
+  }
+  
+  .template button{
+    margin-top:10px;
+    background:#6c3cff;
+    color:#fff;
+    border:none;
+    padding:6px 10px;
+    border-radius:8px;
+  }
+
+.vault{
+  background:#fff;
+    padding:20px;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+  
+  /* RIGHT INFO */
+  .info{
+    background:#f1f1f1;
+    padding:10px;
+    border-radius:8px;
+    margin-top:10px;
+  }
+  
+  /* STEPS */
+  .step{
+    background:#f1f1f1;
+    padding:10px;
+    border-radius:10px;
+    margin-top:8px;
+  }
+  
+  .step span{
+    background:#0f5c50;
+    color:#fff;
+    padding:5px 10px;
+    border-radius:50%;
+    margin-right:10px;
+    
+  }
+
+  .type{
+       margin-top: 6px;
+       margin-left: 40px;
+       font-size: 13px;
+  }
+
+
+  .end{
+    background-color: #6532fd;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  ul{
+    display: block;
+    list-style: none;
+  }
+
+  ul p{
+    margin-top: 20px;
+  }
